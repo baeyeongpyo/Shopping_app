@@ -14,12 +14,11 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_margin="12dp"
-        android:background="@{vodata.img}"
         app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?android:attr/actionModeCloseDrawable" />
+        app:imgres="@{vodata.img}" />
 
     <TextView
         android:id="@+id/textView"

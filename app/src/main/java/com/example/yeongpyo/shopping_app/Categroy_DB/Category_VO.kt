@@ -10,6 +10,7 @@ class Category_VO(Category: String) {
 
     constructor(img : Int, Category: String) : this(Category) {
         this.img = ObservableField(img)
+
     }
 
 
